@@ -4,3 +4,4 @@ pandas
 openpyxl 
 matplotlib 
 spacy
+es_core_news_sm
