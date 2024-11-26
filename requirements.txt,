@@ -1,0 +1,3 @@
+python -m spacy download es_core_news_sm
+# Instalar dependencias necesarias
+pip install streamlit tensorflow pandas openpyxl matplotlib spacy
