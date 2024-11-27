@@ -116,7 +116,7 @@ def predecir_causas(dataframe, modelo):
     return [etiquetas[c] for c in causas]
 
 # Interfaz Streamlit
-st.title("Clasificación de Siniestros Viales")
+st.title("Clasificación de Siniestros")
 
 uploaded_file = st.file_uploader("Sube un archivo Excel con los textos en la primera columna", type=["xlsx"])
 if uploaded_file:
