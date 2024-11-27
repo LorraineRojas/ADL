@@ -11,7 +11,7 @@ from tensorflow.keras.models import load_model
 @st.cache_resource
 def load_model_and_vocab():
     try:
-        modelo = load_model("./sinisters_glove 1.h5")
+        modelo = load_model("./sinisters_glove_3.h5")
         with open('./vocabulary.txt', 'r') as f:
             vocab = f.read().splitlines()
         text_vectorization_layer = modelo.layers[0]
